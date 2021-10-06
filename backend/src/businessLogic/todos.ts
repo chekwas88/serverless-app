@@ -43,7 +43,6 @@ export const getTodo = async (
   return await todosAccess.getTodo(todoId, userId)
 }
 
-// knowledge center: fixed from logs error
 export async function updateTodo(
   userId: string,
   todoId: string,
